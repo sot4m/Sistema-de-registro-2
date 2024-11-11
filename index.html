@@ -30,6 +30,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      overflow: hidden;
     }
 
     .heart::before,
@@ -54,13 +55,14 @@
 
     .message {
       position: absolute;
-      transform: rotate(45deg); /* Gira el texto para que esté derecho dentro del corazón */
       text-align: center;
       font-size: 14px;
       color: #ffeb3b;
       line-height: 1.4;
-      width: 120px; /* Ajusta el ancho para que encaje mejor */
+      width: 140px; /* Ajuste del ancho del mensaje para que encaje en el corazón */
       margin: 0;
+      padding: 5px;
+      box-sizing: border-box;
     }
 
     @keyframes beat {
@@ -86,5 +88,6 @@
   </div>
 </body>
 </html>
+
 
 
