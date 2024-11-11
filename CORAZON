@@ -54,15 +54,13 @@
     }
 
     .message {
-      position: absolute;
+      transform: rotate(45deg); /* Para mantener el texto en posición normal */
       text-align: center;
       font-size: 14px;
       color: #ffeb3b;
       line-height: 1.4;
-      width: 140px; /* Ajuste del ancho del mensaje para que encaje en el corazón */
-      margin: 0;
-      padding: 5px;
-      box-sizing: border-box;
+      width: 120px;
+      margin: 0; /* Para evitar cualquier desplazamiento */
     }
 
     @keyframes beat {
@@ -88,6 +86,7 @@
   </div>
 </body>
 </html>
+
 
 
 
