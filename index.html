@@ -12,12 +12,9 @@
       align-items: center;
       height: 100vh;
       background-color: black;
-      font-family: Arial, sans-serif;
       color: white;
+      font-family: Arial, sans-serif;
       overflow: hidden;
-      background-image: url('https://www.w3schools.com/w3images/roses.jpg'); /* Imagen de fondo */
-      background-size: cover;
-      background-position: center;
     }
 
     .heart {
@@ -25,12 +22,9 @@
       width: 200px;
       height: 200px;
       background-color: red;
+      margin-top: 20px;
       transform: rotate(-45deg);
       animation: beat 1.5s infinite;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      overflow: hidden;
     }
 
     .heart::before,
@@ -57,14 +51,10 @@
       position: absolute;
       top: 50%;
       left: 50%;
-      transform: translate(-50%, -50%) rotate(45deg);
+      transform: rotate(45deg) translate(-50%, -50%);
       text-align: center;
       font-size: 14px;
-      color: #ffeb3b;
-      line-height: 1.4;
-      width: 150px; /* Ajusta el ancho para que encaje bien */
-      padding: 5px;
-      box-sizing: border-box;
+      width: 140px;
     }
 
     @keyframes beat {
@@ -80,8 +70,12 @@
 <body>
   <div class="heart">
     <div class="message">
-      NO OLVIDES QUE ERES MUY IMPORTANTE PARA MI OJITOS HERMOSOS<br>
-      RECUERDA QUE TE AMO Y MUCHO MI AMOR
+      TE AMO MUCHO<br>
+      ERES EL AMOR DE MI VIDA<br>
+      GRACIAS POR TODO LO QUE HACES POR MI<br>
+      NO OLVIDES QUE SIEMPRE ESTARÉ A TU LADO<br>
+      JUNTOS PODREMOS SOLUCIONARLO TODO<br>
+      MI HERMOSA OJITOS PRECIOSOS
     </div>
   </div>
 </body>
