@@ -52,13 +52,10 @@
     .message {
       position: relative;
       text-align: center;
-      font-size: 12px;
-      width: 140px;
+      font-size: 16px;
       color: #ffeb3b;
-      line-height: 1.2;
-      transform: rotate(45deg); /* Solo gira el texto */
-      padding: 5px;
-      box-sizing: border-box;
+      transform: rotate(45deg); /* Gira solo el texto */
+      font-weight: bold;
     }
 
     @keyframes beat {
@@ -73,10 +70,7 @@
 </head>
 <body>
   <div class="heart">
-    <div class="message">
-      NO OLVIDES QUE ERES MUY IMPORTANTE PARA MÍ<br>
-      RECUERDA QUE TE AMO MUCHO, OJITOS HERMOSOS
-    </div>
+    <div class="message">TE AMO<br>OJITOS PRECIOSOS</div>
   </div>
 </body>
 </html>
