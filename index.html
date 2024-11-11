@@ -19,8 +19,8 @@
 
     .heart {
       position: relative;
-      width: 200px;
-      height: 200px;
+      width: 250px; /* Aumento el tamaño del corazón */
+      height: 250px;
       background-color: red;
       transform: rotate(-45deg);
       animation: beat 1.5s infinite;
@@ -33,30 +33,30 @@
     .heart::after {
       content: "";
       position: absolute;
-      width: 200px;
-      height: 200px;
+      width: 250px; /* Aumento el tamaño de los círculos */
+      height: 250px;
       background-color: red;
       border-radius: 50%;
     }
 
     .heart::before {
-      top: -100px;
+      top: -125px;
       left: 0;
     }
 
     .heart::after {
-      left: 100px;
+      left: 125px;
       top: 0;
     }
 
     .message {
-      position: relative;
+      position: absolute;
       text-align: center;
       color: #ffeb3b;
       transform: rotate(45deg);
       font-weight: bold;
-      font-size: 40px; /* Tamaño de letra grande */
-      width: 160px;
+      font-size: 50px; /* Tamaño grande para el texto */
+      width: 150px;
       line-height: 1.2;
       padding: 5px;
       box-sizing: border-box;
@@ -79,6 +79,8 @@
     </div>
   </div>
 </body>
+</html>
+
 </html>
 
 
