@@ -15,7 +15,7 @@
       color: white;
       font-family: Arial, sans-serif;
       overflow: hidden;
-      background-image: url('https://www.w3schools.com/w3images/roses.jpg');
+      background-image: url('https://www.w3schools.com/w3images/roses.jpg'); /* Imagen de rosas de fondo */
       background-size: cover;
       background-position: center;
     }
@@ -25,12 +25,12 @@
       width: 200px;
       height: 200px;
       background-color: red;
+      margin-top: 20px;
       transform: rotate(-45deg);
       animation: beat 1.5s infinite;
       display: flex;
       justify-content: center;
       align-items: center;
-      overflow: hidden;
     }
 
     .heart::before,
@@ -54,13 +54,15 @@
     }
 
     .message {
-      transform: rotate(45deg); /* Para mantener el texto en posición normal */
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); /* Centrado dentro del corazón */
       text-align: center;
-      font-size: 14px;
-      color: #ffeb3b;
+      font-size: 16px;  /* Aumento el tamaño del texto */
+      width: 180px;    /* Ajusto el ancho del mensaje */
+      color: #ffeb3b;   /* Color amarillo brillante para el texto */
       line-height: 1.4;
-      width: 120px;
-      margin: 0; /* Para evitar cualquier desplazamiento */
     }
 
     @keyframes beat {
@@ -86,8 +88,6 @@
   </div>
 </body>
 </html>
-
-
 
 
 
