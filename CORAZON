@@ -52,10 +52,14 @@
     .message {
       position: relative;
       text-align: center;
-      font-size: 16px;
+      font-size: 12px; /* Ajuste de tamaño de fuente */
       color: #ffeb3b;
-      transform: rotate(45deg); /* Gira solo el texto */
+      transform: rotate(45deg);
       font-weight: bold;
+      width: 140px; /* Ajuste de ancho para que se ajuste mejor */
+      line-height: 1.2;
+      padding: 5px;
+      box-sizing: border-box;
     }
 
     @keyframes beat {
@@ -70,7 +74,9 @@
 </head>
 <body>
   <div class="heart">
-    <div class="message">TE AMO<br>OJITOS PRECIOSOS</div>
+    <div class="message">
+      TE AMO<br>OJITOS PRECIOSOS
+    </div>
   </div>
 </body>
 </html>
