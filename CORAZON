@@ -51,10 +51,11 @@
       position: absolute;
       top: 50%;
       left: 50%;
-      transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); /* Centrado dentro del corazón */
       text-align: center;
-      font-size: 12px;
-      width: 160px;
+      font-size: 14px;  /* Aumento el tamaño de la fuente */
+      width: 180px;    /* Ajusto el ancho del mensaje */
+      color: white;    /* Aseguro que el texto sea blanco */
     }
 
     @keyframes beat {
@@ -80,5 +81,6 @@
   </div>
 </body>
 </html>
+
 
 
