@@ -51,10 +51,10 @@
       position: absolute;
       top: 50%;
       left: 50%;
-      transform: rotate(45deg) translate(-50%, -50%);
+      transform: translate(-50%, -50%);
       text-align: center;
-      font-size: 14px;
-      width: 140px;
+      font-size: 12px;
+      width: 160px;
     }
 
     @keyframes beat {
@@ -80,3 +80,5 @@
   </div>
 </body>
 </html>
+
+
