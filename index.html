@@ -22,12 +22,12 @@
       width: 200px;
       height: 200px;
       background-color: red;
-      margin-top: 20px;
       transform: rotate(-45deg);
       animation: beat 1.5s infinite;
       display: flex;
       justify-content: center;
       align-items: center;
+      overflow: hidden; /* Evita que el texto se desborde fuera del corazón */
     }
 
     .heart::before,
@@ -53,11 +53,13 @@
     .message {
       position: relative;
       text-align: center;
-      font-size: 14px;
-      width: 140px;
-      color: #ffeb3b; /* Color amarillo para que resalte */
+      font-size: 12px; /* Tamaño reducido para que el texto se ajuste */
+      width: 160px; /* Ancho ajustado para mayor visibilidad */
+      color: #ffeb3b;
       line-height: 1.4;
       transform: rotate(45deg); /* Rotación solo del texto */
+      padding: 5px;
+      box-sizing: border-box;
     }
 
     @keyframes beat {
