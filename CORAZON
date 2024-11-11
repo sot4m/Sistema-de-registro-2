@@ -15,6 +15,9 @@
       color: white;
       font-family: Arial, sans-serif;
       overflow: hidden;
+      background-image: url('https://www.w3schools.com/w3images/roses.jpg'); /* Imagen de rosas de fondo */
+      background-size: cover;
+      background-position: center;
     }
 
     .heart {
@@ -25,6 +28,9 @@
       margin-top: 20px;
       transform: rotate(-45deg);
       animation: beat 1.5s infinite;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     .heart::before,
@@ -53,9 +59,10 @@
       left: 50%;
       transform: translate(-50%, -50%); /* Centrado dentro del corazón */
       text-align: center;
-      font-size: 14px;  /* Aumento el tamaño de la fuente */
+      font-size: 16px;  /* Aumento el tamaño del texto */
       width: 180px;    /* Ajusto el ancho del mensaje */
-      color: white;    /* Aseguro que el texto sea blanco */
+      color: #ffeb3b;   /* Color amarillo brillante para el texto */
+      line-height: 1.4;
     }
 
     @keyframes beat {
@@ -81,6 +88,7 @@
   </div>
 </body>
 </html>
+
 
 
 
