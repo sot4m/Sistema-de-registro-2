@@ -55,18 +55,11 @@
       color: #ffeb3b;
       transform: rotate(45deg);
       font-weight: bold;
-      width: 140px;
+      font-size: 40px; /* Tamaño de letra grande */
+      width: 160px;
       line-height: 1.2;
       padding: 5px;
       box-sizing: border-box;
-    }
-
-    .message .large {
-      font-size: 24px; /* Aumenta el tamaño de "TE AMO" */
-    }
-
-    .message .small {
-      font-size: 14px; /* Tamaño de fuente más pequeño para "MUCHO" */
     }
 
     @keyframes beat {
@@ -82,12 +75,12 @@
 <body>
   <div class="heart">
     <div class="message">
-      <span class="large">TE AMO</span><br>
-      <span class="small">MUCHO</span>
+      TE AMOOO
     </div>
   </div>
 </body>
 </html>
+
 
 
 
