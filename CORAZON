@@ -27,7 +27,6 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      overflow: hidden; /* Evita que el texto se desborde fuera del corazón */
     }
 
     .heart::before,
@@ -53,11 +52,11 @@
     .message {
       position: relative;
       text-align: center;
-      font-size: 12px; /* Tamaño reducido para que el texto se ajuste */
-      width: 160px; /* Ancho ajustado para mayor visibilidad */
+      font-size: 12px;
+      width: 140px;
       color: #ffeb3b;
-      line-height: 1.4;
-      transform: rotate(45deg); /* Rotación solo del texto */
+      line-height: 1.2;
+      transform: rotate(45deg); /* Solo gira el texto */
       padding: 5px;
       box-sizing: border-box;
     }
@@ -75,12 +74,13 @@
 <body>
   <div class="heart">
     <div class="message">
-      NO OLVIDES QUE ERES MUY IMPORTANTE PARA MI<br>
-      OJITOS HERMOSOS, RECUERDA QUE TE AMO Y MUCHO MI AMOR
+      NO OLVIDES QUE ERES MUY IMPORTANTE PARA MÍ<br>
+      RECUERDA QUE TE AMO MUCHO, OJITOS HERMOSOS
     </div>
   </div>
 </body>
 </html>
+
 
 
 
